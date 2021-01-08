@@ -1,0 +1,320 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;  
+}
+
+header {
+    background-color: rgb(245, 217, 126);
+    padding-left: 45%;
+    height: 5.2rem;
+} 
+
+header img {
+    height: 5rem;
+}
+
+div nav {
+   background-color: rgb(239, 39, 94);
+   height: 1.8rem;   
+} 
+
+nav ul {
+    padding-top: 0.3rem;
+}
+
+nav li {
+    display: inline;
+    padding-left: 10.8rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(245, 217, 126);  
+}
+
+li a:hover {
+    color: #666666;
+}
+
+.firstContainer {
+    border-bottom: 1px solid #d9d9d9;
+    position: relative;
+    height: 39.5rem;
+}
+
+div figure.one {
+    position: absolute;
+    border: 1px solid #d9d9d9;
+    left: 61rem;
+    bottom: 21.7rem; 
+}
+
+div figure.two {
+    position: absolute;
+    border: 1px solid #d9d9d9;
+    left: 61rem;
+    top: 19rem;
+}
+
+div figure.three {
+    position: absolute;
+    border: 1px solid #d9d9d9;
+    left: 38rem;
+    top: 4.5rem;
+}
+
+div figure.four {
+    position: absolute;
+    border: 1px solid #d9d9d9;
+    top: 19rem;
+    left: 38rem;
+} 
+
+figcaption {
+    color: rgb(206, 7, 60);
+}
+
+div.firstContainer h2 {
+    color: rgb(239, 39, 94);
+    position: absolute;
+    top: 15rem;
+    letter-spacing: 0.2rem; 
+    left: 6rem;
+}
+
+div.firstContainer p {
+    position: absolute;
+    top: 17rem;
+    color: #595959;
+    letter-spacing: 0.1rem;
+    left: 6rem;
+}
+
+div.firstContainer button {
+    position: absolute;
+    top: 19rem;
+    left: 9rem;
+    color: rgb(245, 217, 126);
+    background-color: rgb(239, 39, 94);
+    border: 1px solid rgb(239, 39, 94);
+    border-radius: 1rem;
+    height: 2rem;
+    width: 8rem;
+}
+
+.firstContainer button:hover {
+    color: #666666;
+}
+
+.topButton {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgb(239, 39, 94);
+    padding: 10px 0px 0px 7px;
+    position: fixed;
+    margin-top: 37rem;
+}
+
+.topButton a {
+    text-decoration: none;
+    color: rgb(245, 217, 126);
+
+}
+
+.introduction {
+    border: 1px solid #d9d9d9;
+    height: 30rem;
+    background-image: url("./images/background7.jpg");
+}
+
+.introduction h2 {
+    color: #666666;
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+
+.introduction h3 {
+    color:rgb(239, 39, 94);
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+.introduction p {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    color: #333333;
+}
+
+.introduction button {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(239, 39, 94);
+    border: none;
+    color: rgb(245, 217, 126);
+}
+
+.introduction button:hover {
+    color: #666666;
+}
+
+.specialOffers {
+    border: 1px solid #d9d9d9;
+    height: 30rem;
+}
+
+.specialOffers h2 {
+    color: rgb(239, 39, 94);
+    margin-top: 3rem;
+    margin-left: 38rem;
+}
+
+.specialOffers p {
+    color: #666666;
+    margin-left: 33rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+#pictureOne {
+    padding-left: 23rem;
+}
+
+.contact {
+    border: 1px solid #d9d9d9;
+    height: 30rem;
+    background-image: url("./images/background8.jpg");
+}
+
+.contact h2 {
+    margin-top: 10rem;
+    color: rgb(239, 39, 94);
+    margin-left: 30rem;
+    
+}
+
+.contact p {
+    color: #595959;
+    margin-left: 30rem;
+    margin-top: 0.1rem;
+}
+
+div.contact form {
+    float: right;
+    margin-right: 18rem;
+    margin-top: -6rem;    
+}
+
+#name, #email {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(239, 39, 94);
+    border-radius: 1rem;
+    width: 20rem;
+    height: 2rem;
+}
+
+#message {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(239, 39, 94);
+    border-radius: 1rem;
+    width: 20rem;
+    height: 8rem;
+}
+
+#sendButton {
+    display: block;
+    background-color: rgb(239, 39, 94);
+    border-radius: 1rem;
+    color: rgb(245, 217, 126);
+    width: 5rem;
+    height: 2rem;
+    margin-left: 15rem;
+}
+
+#sendButton:hover {
+    color: #595959;
+}
+
+input#name, input#email, textarea#message {
+    padding-left: 1rem;
+}
+
+.newsletter {
+    border: 1px solid #d9d9d9;
+    height: 18rem;
+}
+
+div.subscribe  {
+    margin-top: 5rem;
+    margin-left: 15rem;
+    width: 25rem;
+}
+
+div.subscribe h3 {
+    color: rgb(239, 39, 94);
+    margin-bottom: 1rem; 
+}
+
+div.subscribe span {
+    color: #595959;
+}
+
+#newsletterMail, #subscribeButton {
+    margin-top: 1rem;
+}
+
+#newsletterMail {
+    border-radius: 1rem;
+    border-color: rgb(239, 39, 94);
+    height: 1.5rem;
+    width: 15rem;
+    padding-left: 0.5rem;
+}
+
+#subscribeButton {
+    background-color: rgb(239, 39, 94);
+    color: rgb(245, 217, 126);
+    border-radius: 1rem;
+}
+
+#subscribeButton:hover {
+    color: #666666;
+}
+
+.contactInfo {
+   margin-left: 50rem;
+   margin-top: -8rem;
+} 
+
+div.contactInfo h3 {
+    color: rgb(239, 39, 94);
+}
+
+div.contactInfo span {
+    color: #595959;
+}
+
+iframe {
+    float: right;
+    margin-right: 6rem;
+    height: 12em;
+    width: 15em;
+    margin-top: -10rem;
+}
+
+footer {
+    height: 1.5rem;
+    background-color: rgb(239, 39, 94);
+}
+
+footer small {
+    margin-left: 35rem;
+    color: rgb(245, 217, 126);
+}
